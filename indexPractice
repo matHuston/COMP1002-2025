@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exam test</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>This is my title</h1>
+    <header>
+        <h3>This is my page header</h2>
+    </header>
+    <main>
+        <p>make sure to use paragraphs and tab out content corrently</p>
+        <img src="put source here" alt="remember alt text always">
+        <figure>
+            <img src="figure img" alt="fig img">
+            <figcaption>put a caption under img</figcaption>
+        </figure>
+        <article>
+            <p>this is the article to go with my figure. this article includes a <br></br> line break.</p>
+        </article>
+        <aside>
+            <p>this is an aside to my article
+            <ul>
+                <li>this is a list to go with my aside</li>
+            </ul>
+            </p>
+            <p>
+                <a href="">this is how you use links</a>
+            </p>
+        </aside>
+    </main>
+    <form action="this is url where data is sent" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="user_email">
+        </p>
+        <p>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_msg"></textarea>
+        </p>
+        <p class="submit_button">
+            <submit_button type="submit"></submit_button>
+        </p>
+
+</body>
+
+</html>
