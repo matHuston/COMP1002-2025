@@ -1,0 +1,163 @@
+/* */ /*------------------------------------------------CSS*/       
+        
+        /*Text color and font, in this case for h1 */
+       /* h1 {
+                color: blueviolet;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }*/
+
+/*simple bg img*/
+
+
+body { /* INHERITANCE is important, it passes down styles to child elements. use body to set global styles and have them inherited by all elements unless otherwise specified -- an INLINE or INTERNAL CSS will override this inheritance */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* ORDER - CSS stands for CASCADING style sheets, which means that the importance of applied styles are applied top to bottom, with lower styles taking presidence over styles above them. in the below example, the lowercase would take president. adding nav makes it so the uppercase is only applied to nav anchors, so it gains top importance. then, adding the !important tag to the second anchor FORCES it to have higher priority, and it will be loaded over everything */
+nav a {
+	text-transform: uppercase;
+}
+a{
+	text-transform: lowercase !important;
+}
+
+p {
+    background: url("fallback.png") no-repeat center;
+    background-image: url("image.svg");
+    background-size: contain;
+}
+
+.warrior { /*this is a class selctor, you can apply classes to paragraphs and other elements to control specific element appearances like this <p class="warrior"> */
+    font-family: 'Courier New', Courier
+    monospace;
+    font-size: 1.5em;
+    color: darkred;
+}
+/* PSEUDOCLASS Selector */
+p:hover
+{
+	background-color: limegreen;
+}
+
+/* PSEUDOELEMENT Selector*/
+p::first-letter {
+	font-size: 300%;
+}
+
+p::first-line {
+	font-weight: bold;
+}
+/*DECENDENT/CONTEXTUAL Selector - Make a selector that ONLY targets EM elements when they are contained by a Q element - note how this avoids styling all the other EM elements on the page */
+q em {
+	text-transform: uppercase;
+}
+
+/*CHILD/DIRECT-DESCENDENT Selector - Create a selector that targets EM elements ONLY when they are directly contained by a P element - note that the EM element inside the Q (which is a child of a P) is NOT affected */
+p > em {
+	color: red;
+}
+
+/*ADJACENT SIBLING Selectors - Build a selector that targets ONLY P elements that are next to an H2 element and they share the same parent */
+h2 + p {
+	margin: 2em;
+}
+
+/*GENERAL SIBLING Selectors - Adjust the selector above so that it targets ALL P elements that are siblings of an H2 element, sharing the same parent */
+h2 ~ p {
+	margin: 2em;
+}
+
+/*GROUPED Selectors - other selectors can also be grouped */
+h1, h2 {
+	font-family: Impact, sans-serif;
+	text-shadow: 3px 3px 5px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*CSS for email form to look nice*/
+            body {
+            /* Center the form on the page */
+            text-align: center;
+            }
+
+            form {
+            display: inline-block;
+            /* Form outline */
+            padding: 1em;
+            border: 1px solid #cccccc;
+            border-radius: 1em;
+            }
+
+            p + p {
+            margin-top: 1em;
+            }
+
+            label{
+            /* Uniform size & alignment */
+            display: inline-block;
+            min-width: 90px;
+            text-align: right;
+            }
+
+            input,
+            textarea {
+                /* To make sure that all text fields have the same font settings
+                    By default, text areas have a monospace font */
+                font: 1em sans-serif;
+                /* Uniform text field size */
+                width: 300px;
+                box-sizing: border-box;
+                /* Match form field borders */
+                border: 1px solid #999999;
+            }
+
+            input:focus,
+            textarea:focus {
+                /* Set the outline width and style */
+                outline-style: solid;
+                /* To give a little highlight on active elements */
+                outline-color: black;
+            }
+
+            textarea {
+                /* Align multiline text fields with their labels */
+                vertical-align: top;
+                /* Provide space to type some text */
+                height: 5em;
+            }
+
+            .button {
+                /* Align buttons with the text fields */
+                padding-left: 90px; /* same size as the label elements */
+            }
+
+            button {
+                /* This extra margin represent roughly the same space as the space
+                    between the labels and their text fields */
+                margin-left: 0.5em;
+            }
+            /*email form CSS end*/
+
