@@ -2,7 +2,9 @@
 /* This document is a Cascading Style Sheet or CSS */
 
 /* STEP 2a: Create a simple 'type' selector to style the H1 HTML element */
-
+h1 {
+	color: #f456fd;
+}
 
 /* STEP 2b: Open and close a pair of braces that will encapsulate the CSS declarations */
 /* STEP 2c: Include the 'color' property inside the braces, followed by a ': ' */
