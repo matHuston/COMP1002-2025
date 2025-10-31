@@ -12,8 +12,19 @@
 	<body>
 		<!-- Page-level header -->
 		<header>
+			<img src="images/html-logo.svg" height="75" width="75" alt="HTML" />
 			<h1>HTML, CSS, and JS Fundamentals</h1>
 			<h2>Building Blocks for Web Developers</h2>
+			<!-- Global site navigation -->
+			<nav>
+				<ul>
+					<li><a href="index.php" title="Go to the Home page">Home</a></li>
+					<li><a href="red.php" title="Learn about red blocks">Red Blocks</a></li>
+					<li><a href="blue.php" title="Learn about blue blocks">Blue Blocks</a></li>
+					<li><a href="yellow.php" title="Learn about yellow blocks">Yellow Blocks</a></li>
+					<li><a href="about.php" title="Learn more about us">About</a></li>
+				</ul>
+			</nav>
 		</header>
 		<!-- Page-level main content -->
 		<main>
@@ -29,6 +40,10 @@
 		</main>
 		<!-- Page-level footer -->
 		<footer>
+			<!-- Fine print navigation -->
+			<nav>
+				<a href="about/privacy-policy.php" title="Read our Privacy Policy">Privacy Policy</a> | <a href="about/privacy-policy.php#personal-information" title="Learn about how we treat your personal information">Use of Personal Information</a> | <a href="about/terms-of-use.php" title="Understand our Terms of Use">Terms of Use</a> | <a href="about/terms-of-use.php#limitation-liability" title="Our Limitation of Liability explained">Limitation of Liability</a>
+			</nav>
 			<p><small>© HTML, CSS, and JS Blocks Inc.</small></p>
 		</footer>
 	</body>
@@ -47,8 +62,19 @@
 	<body>
 		<!-- Page-level header -->
 		<header>
+			<img src="images/html-logo.svg" height="75" width="75" alt="HTML" />
 			<h1>HTML, CSS, and JS Fundamentals</h1>
 			<h2>Building Blocks for Web Developers</h2>
+			<!-- Global site navigation -->
+			<nav>
+				<ul>
+					<li><a href="index.php" title="Go to the Home page">Home</a></li>
+					<li><a href="red.php" title="Learn about red blocks">Red Blocks</a></li>
+					<li><a href="blue.php" title="Learn about blue blocks">Blue Blocks</a></li>
+					<li><a href="yellow.php" title="Learn about yellow blocks">Yellow Blocks</a></li>
+					<li><a href="about.php" title="Learn more about us">About</a></li>
+				</ul>
+			</nav>
 		</header>
 		<!-- Page-level main content -->
 		<main>
@@ -64,8 +90,12 @@
 		</main>
 		<!-- Page-level footer -->
 		<footer>
+			<!-- Fine print navigation -->
+			<nav>
+				<a href="about/privacy-policy.php" title="Read our Privacy Policy">Privacy Policy</a> | <a href="about/privacy-policy.php#personal-information" title="Learn about how we treat your personal information">Use of Personal Information</a> | <a href="about/terms-of-use.php" title="Understand our Terms of Use">Terms of Use</a> | <a href="about/terms-of-use.php#limitation-liability" title="Our Limitation of Liability explained">Limitation of Liability</a>
+			</nav>
 			<p><small>© HTML, CSS, and JS Blocks Inc.</small></p>
 		</footer>
 	</body>
 </html>
->>>>>>> 096b7b360aaa74bee5239b7c429ba202ada8d173
+>>>>>>> 6b6d2d4bab0fd080f6ca777f0bbeca06270579e6
