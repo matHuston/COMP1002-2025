@@ -13,14 +13,12 @@
 
     <body>
         <header>
+            <!-- navigation bar -->
             <nav class="crumbs">
                 <ol>
                     <li class="crumb"><a href="index.html">Home</a></li>
                     <li class="crumb"><a href="menu.html">Menu</a></li>
-                    <li class="crumb"><a href="order.html">Order</a></li>
-                    
-                    <!-- <li class="crumb"><a href="locations.html">Locations</a></li>
-                    <li class="crumb"><a href="contact.html">Contact</a></li> -->
+                    <li class="crumb"><a href="order.html">Order</a></li> 
                 </ol>
             </nav>   
 
@@ -30,17 +28,21 @@
         </header>
         
         <main>
+            <!-- two collumn layout -->
             <div class="row">
+                <!-- collumn for build your own -->
                 <div class="column">
-                    <p>Build ya own</p>
+                    <p>Buildya Own</p>
                         <form action="/form-handling" method="post">
 
                         </form>
                 </div>
 
+                <!-- collumn for specials -->
                 <div class="column">
                     <form action="/form-handling" method="post">
-                        <label for="pizza">Specialty Pies:</label>
+                        <p>Monthly Specialties</p>
+                        <label for="pizza">Pies:</label>
                         <select id="pizza" name="pizza">
                             <option value="margherita">Mama's Margherita</option>
                             <option value="pepperoni">Papa's Pepperoni</option>
@@ -54,18 +56,18 @@
                         <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
                         <br>
                         <p class="button">
-                            <button type="submit">Place Order</button>
+                            <button type="submit">Add to Order</button>
                         </p>
                     </form>
                 </div>
-                
-            
+            </div>
                 
         </main>
         
         <footer>
             <p><small>In Soho at 236 E Lafayette St, (212) 290-4217</small></p>
         </footer>
+
     </body>
 
     <script>
