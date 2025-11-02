@@ -1,11 +1,22 @@
 /*navigation bar*/
+html{
+    background-image: url("images/red-wood.jpg");
+    /* Photo by Chevanon Photography: https://www.pexels.com/photo/red-wooden-surface-1108116/ */
+}
 nav {
     border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-family:Impact;
+    font-size: 90%;
+}
+a {
+    color: black;
+    
 }
 .crumbs ol {
     list-style-type: none;
     padding-left: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 .crumb {
     display: inline-block;
@@ -13,9 +24,7 @@ nav {
 .crumb a::after{
     display: inline-block;
     color: black;
-    content: "  ";
-    font-size: 80%;
-    font-weight: bold;
+    content: "";
     padding: 0 3px
 }
 
@@ -41,11 +50,16 @@ nav {
 }
 
 /*other styles*/
-h1{
+header{
     font-family:Impact, sans-serif;
     font-size: 200%;
     text-align: center;
     font-weight: normal;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 150%;
+    text-align: center;
 }
 main {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
