@@ -1,0 +1,46 @@
+nav {
+    border-bottom: 1px solid black;
+}
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.crumb {
+    display: inline-block;
+}
+.crumb a::after{
+    display: inline-block;
+    color: black;
+    content: "  ";
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px
+}
+
+.column{
+        float: left;
+        width: 33.33%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+@media screen and (max-width:600px){
+    .column{
+        width: 100%; 
+    }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main p {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+footer p {
+	text-align: right;
+}
