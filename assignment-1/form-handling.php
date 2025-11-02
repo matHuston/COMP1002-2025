@@ -13,26 +13,13 @@
 			<h2>Order placed, get outta 'here!</h2>
 <?php
    $size = $_GET["size"];
-	// STEP 18: Set a variable to capture the last name from the submitted form, using the GET array and the lname value
-	
-	// STEP 20: Capture the Alert Settings from the submitted form, using the GET array and the alert value
-	
-	// STEP 17: Output a friendly message to confirm that everything went well, including the $fname variable in a paragraph
-    echo('<p>Thank you for your order of: ' .$size. ' pizza.</p>');
-	
-	// STEP 19: Update the above paragraph to now include the last name
-
-	echo('<p>The Alert Settings you have chosen include the following notifications:</p>
-	<ul>');
-		// STEP 21: The checkboxes for the Alert Settings will be sent as an array (as there could be more than one option checked by the user - so we need to loop through each item with a FOREACH loop)
-		
-
-
-	echo('</ul>');
+	//output a message showing the size of the pizza ordered
+    echo('<p>You have ordered a '.$size.' pizza.</p>');
+    
 ?>
 		</main>
         <footer>
-            <p><small>©Piesano Pies. All rights reserved</small></p>
+            
         </footer>
 	</body>
 </html>
