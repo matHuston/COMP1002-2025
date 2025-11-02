@@ -36,12 +36,12 @@
                         <p>Monthly Specialties</p>
                         <label for="pizza">Pies:</label>
                         <select id="pizza" name="pizza">
-                            <option value="margherita">Mama's Margherita</option>
-                            <option value="pepperoni">Papa's Pepperoni</option>
-                            <option value="bbq-chicken">Bobbie's BBQ Chicken</option>
-                            <option value="veggie-delight">Vinnie's Veggie</option>
-                            <option value="bbq-chicken">Maria's Meat Lovers</option>
-                            <option value="veggie-delight">Cousin Antonio's Flamin Cheese</option>
+                            <option value="Mama's Margherita">Mama's Margherita</option>
+                            <option value="Papa's Pepperoni">Papa's Pepperoni</option>
+                            <option value="Bobbie's BBQ Chicken">Bobbie's BBQ Chicken</option>
+                            <option value="Vinnie's Veggie">Vinnie's Veggie</option>
+                            <option value="Maria's Meat Lovers">Maria's Meat Lovers</option>
+                            <option value="Cousin Antonio's Flamin Cheese">Cousin Antonio's Flamin Cheese</option>
                         </select>
                         <br><br>
                         <label for="quantity">Quantity:</label>
@@ -74,21 +74,104 @@
                                         <label for="humongous">Humongous 18"</label><br>  
                                 </fieldset>
                             </section>
+
                             <!-- crust section -->
+                            <section>
+                                <fieldset>
+                                    <legend><b>Crust</b></legend>
+                                    <select id="crust" name="crust">
+                                        <option value="Thin">Thin</option>
+                                        <option value="Thick">Thick</option>
+                                        <option value="Gluten Free">Gluten Free</option>
+                                    </select>
+                                </fieldset>
+                            </section>
 
                             <!-- sauce section -->
+                             <section>
+                                <fieldset>
+                                    <legend><b>Sauce</b></legend>
+                                    <select id="sauce" name="sauce">
+                                        <option value="Tomato">Tomato</option>
+                                        <option value="Pesto">Pesto</option>
+                                        <option value="Garlic Butter">Garlic Butter</option>
+                                        <option value="Alfredo">Alfredo</option>
+                                        <option value="Barbeque">Barbeque</option>
+                                    </select>
+                                </fieldset>
+                            </section>
 
                             <!-- toppings section -->
+                            <section>
+                                <fieldset>
+                                    <legend><b>Toppings</b></legend>
+                                    <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni">
+                                        <label for="pepperoni">Pepperoni</label><br>
+                                    <input type="checkbox" id="sausage" name="toppings" value="Sausage">
+                                        <label for="sausage">Sausage</label><br>
+                                    <input type="checkbox" id="bacon" name="toppings" value="Bacon">
+                                        <label for="bacon">Bacon</label><br>
+                                    <input type="checkbox" id="ham" name="toppings" value="Ham">
+                                        <label for="ham">Ham</label><br>
+
+                                    <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+                                        <label for="mushrooms">Mushrooms</label><br>
+                                    <input type="checkbox" id="onions" name="toppings" value="Onions">
+                                        <label for="onions">Onions</label><br>
+                                    <input type="checkbox" id="black_olives" name="toppings" value="Black Olives">
+                                        <label for="black_olives">Black Olives</label><br>
+                                    <input type="checkbox" id="green_peppers" name="toppings" value="Green Peppers">
+                                        <label for="green_peppers">Green Peppers</label><br>
+                                    <input type="checkbox" id="jalapenos" name="toppings" value="Jalapenos">
+                                        <label for="jalapenos">Jalapenos</label><br>
+                                    <input type="checkbox" id="tomatoes" name="toppings" value="Tomato Slices">
+                                        <label for="tomatoes">Tomato Slices</label><br>
+                                    <input type="checkbox" id="spinach" name="toppings" value="Spinach">
+                                        <label for="spinach">Spinach</label><br>
+                                    <input type="checkbox" id="pineapple" name="toppings" value="Pineapple">
+                                        <label for="pineapple">Pineapple</label><br>
+                                    <input type="checkbox" id="feta_cheese" name="toppings" value="Feta Cheese">
+                                            <label for="feta_cheese">Feta Cheese</label><br>
+                                </fieldset>
+                            </section>
 
                             <!-- cheese section -->
+                             <section>
+                                <fieldset>
+                                    <legend><b>Cheese</b></legend>
+                                    <select id="cheese" name="cheese">
+                                        <option value="Mozzarella">Mozzarella</option>
+                                        <option value="Margherita Style">Margherita Style</option>
+                                        <option value="Four Cheese">Four Cheese</option>
+                                        <option value="No Cheese">No Cheese</option>
+                                    </select>
+                                    <!-- extra cheese toggle -->
+                                    <input type="checkbox" id="extra_cheese" name="extra_cheese" value="Individual">
+                                        <label for="extra_cheese">Extra Cheese ($2.49)</label><br>
+                                </fieldset>
+                            </section>
 
-                            <!-- addons section -->
+                            <!-- extras section -->
+                            <section>
+                                <fieldset>
+                                    <legend><b>Extras</b></legend>
+                                    <input type="checkbox" id="red_pepper_flakes" name="extras" value="Red Pepper Flakes">
+                                        <label for="red_pepper_flakes">Red Pepper Flakes</label><br>
+                                    <input type="checkbox" id="parmesan_cheese" name="extras" value="Parmesan Cheese">
+                                        <label for="parmesan_cheese">Parmesan Cheese</label><br>
+                                    <input type="checkbox" id="stuffed_crust" name="extras" value="Stuffed Crust">
+                                        <label for="stuffed_crust">Stuffed Crust ($2.49)</label><br>
+                                </fieldset>
 
                             <!-- sumbitting section -->
                              <section>
                                 <fieldset>
                                     <legend><b>Quantity</b></legend>
                                     <input type="number" id="quantity" name="quantity" min="1" max="50" value="1">
+                                    <select id="location" name="location">
+                                        <option value="Delivery">Delivery</option>
+                                        <option value="Pick-Up">Pick-Up</option>
+                                    </select>
                                     <br><br>
                                     <button type="submit">Add to Order</button> <button type="reset">Reset Options</button>
                                 </fieldset>
@@ -110,7 +193,7 @@
     </body>
 
     <script>
-
+     
     </script>
 
 </html>
