@@ -22,41 +22,15 @@
                 </ol>
             </nav>   
 
-            <h1>Putcha's Order in 'ere!</h1>
-            <h2>Order up, capisce?</h2>
-            <p><small>236 E Lafayette St, (212) 290-4217</small></p>
+            <h1>Putcha's order in hereses!</h1>
         </header>
         
         <main>
             <!-- two collumn layout -->
             <div class="row">
-                <!-- collumn for specials -->
-                <div class="column">
-                    <form id="specials" action="form-handling.php" method="GET">
-                        <p>Monthly Specialties</p>
-                        <label for="pizza">Pies:</label>
-                        <select id="pizza" name="pizza">
-                            <option value="Mama's Margherita">Mama's Margherita</option>
-                            <option value="Papa's Pepperoni">Papa's Pepperoni</option>
-                            <option value="Bobbie's BBQ Chicken">Bobbie's BBQ Chicken</option>
-                            <option value="Vinnie's Veggie">Vinnie's Veggie</option>
-                            <option value="Maria's Meat Lovers">Maria's Meat Lovers</option>
-                            <option value="Cousin Antonio's Flamin Cheese">Cousin Antonio's Flamin Cheese</option>
-                        </select>
-                        <br><br>
-                        <label for="quantity">Quantity:</label>
-                        <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
-                        <br>
-                        <p class="button">
-                            <button type="submit">Add to Order</button>
-                        </p>
-                    </form>
-                </div>
-
-
                 <!-- collumn for build your own -->
                 <div class="column">
-                    <p>Buildya Own</p>
+                    <h2>Buildya Own</h2>
                         <form id="build_ya_own" action="form-handling.php" method="GET">
                             <!-- size section -->
                             <section>
@@ -166,19 +140,71 @@
                             <!-- sumbitting section -->
                              <section>
                                 <fieldset>
-                                    <legend><b>Quantity</b></legend>
+                                    <legend><b>Quantity & Details</b></legend>
                                     <input type="number" id="quantity" name="quantity" min="1" max="50" value="1">
                                     <select id="location" name="location">
                                         <option value="Delivery">Delivery</option>
                                         <option value="Pick-Up">Pick-Up</option>
                                     </select>
                                     <br><br>
-                                    <button type="submit">Add to Order</button> <button type="reset">Reset Options</button>
+                                    <label for="address">Delivery Address:</label>
+                                        <input type="text" id="address" name="address" />
+                                    <br><br>
+                                    <label for="name">Name:</label> 
+                                    <input type="text" id="name" name="user_name" />
+                                    <br><br>
+                                    <label for="phone">Phone Number:</label>
+                                    <input type="tel" id="phone" name="user_phone" />
+                                    <br><br>
+                                    <label for="comments">Additional Comments:</label>
+                                    <textarea id="comments" name="user_comments" rows="4" cols="30"></textarea>
+                                    <br><br>
+                                    <button type="submit">Add to Order</button>
+                                    <button type="reset">Reset Options</button>
                                 </fieldset>
                             </section>
-                            
-                            
                         </form>
+                </div>
+
+                <!-- collumn for specials -->
+                <div class="column">
+                    <h2>Monthly Specialties</h2>
+                    <form id="specials" action="form-handling.php" method="GET">
+                        <section>
+                            <fieldset>
+                                <legend><b>Pies</b></legend>
+                                <select id="pizza" name="pizza">
+                                    <option value="Mama's Margherita">Mama's Margherita</option>
+                                    <option value="Papa's Pepperoni">Papa's Pepperoni</option>
+                                    <option value="Bobbie's BBQ Chicken">Bobbie's BBQ Chicken</option>
+                                    <option value="Vinnie's Veggie">Vinnie's Veggie</option>
+                                    <option value="Maria's Meat Lovers">Maria's Meat Lovers</option>
+                                    <option value="Cousin Antonio's Flamin Cheese">Cousin Antonio's Flamin Cheese</option>
+                                </select>
+                                <br><br>
+                                <input type="number" id="quantity" name="quantity" min="1" max="50" value="1">
+                                <select id="location" name="location">
+                                    <option value="Delivery">Delivery</option>
+                                    <option value="Pick-Up">Pick-Up</option>
+                                </select>
+                                <br><br>
+                                <label for="address">Delivery Address:</label>
+                                    <input type="text" id="address" name="address" />
+                                <br><br>
+                                <label for="name">Name:</label> 
+                                <input type="text" id="name" name="user_name" />
+                                <br><br>
+                                <label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="user_phone" />
+                                <br><br>
+                                <label for="comments">Additional Comments:</label>
+                                <textarea id="comments" name="user_comments" rows="4" cols="30"></textarea>
+                                <br><br>
+                                <button type="submit">Place Order</button>
+                                <button type="reset">Reset Options</button>
+                            </fieldset>
+                        </section>
+                    </form>
                 </div>
 
                 
@@ -187,7 +213,7 @@
         </main>
         
         <footer>
-            <p><small>In Soho at 236 E Lafayette St, (212) 290-4217</small></p>
+            <p><small>©Piesano Pies</small></p>
         </footer>
 
     </body>
