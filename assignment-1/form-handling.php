@@ -34,6 +34,7 @@
 		$specials = $_GET["pizza"];
 
 		$size = $_GET["size"];
+		$size2 = $_GET["size2"];
 		$crust = $_GET["crust"];
 		$sauce = $_GET["sauce"];
 		$toppings = $_GET["toppings"];
@@ -47,6 +48,7 @@
 			.$quantity.' ' 
 			.$specials.' ' 
 			.$size.' ' 
+			.$size2.' ' 
 			.$crust.' ' 
 			.$sauce.' ' 
 			.$cheese. '</p>');
@@ -71,7 +73,12 @@
 
 		</main> <!--main end-->
         <footer>
-            <p><small>©Piesano Pies</small></p>
+            <p>
+                <small>
+                    ©Piesano Pies
+                    <a href="https://www.flaticon.com/free-icons/pizza" title="pizza icons">Pizza icon created by Freepik</a>
+                </small>
+            </p>
         </footer>
 	</body>
 </html>
