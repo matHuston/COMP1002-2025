@@ -9,6 +9,7 @@
         <meta name="author" content="matHuston" />
         <meta name="description" content="ayy get youz a pizza here" />
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="shortcut icon" href="images/pizza.png" type="image/x-icon" />
     </head>
 
     <body>
@@ -45,6 +46,23 @@
                                     <option value="Cousin Antonio's Flamin Pineapple">Cousin Antonio's Flamin Pineapple</option>
                                 </select>
                                 <br><br>
+                                    <input type="radio" id="individual" name="size" value="Individual">
+                                        <label for="individual">Individual 6"</label><br>
+                                    <input type="radio" id="small" name="size" value="Small">
+                                        <label for="small">Small 10"</label><br>
+                                    <input type="radio" id="medium" name="size" value="Medium">
+                                        <label for="medium">Medium 13"</label><br>
+                                    <input type="radio" id="large" name="size" value="Large">
+                                        <label for="large">Large 15"</label><br>
+                                    <input type="radio" id="humongous" name="size" value="Humongous">
+                                        <label for="humongous">Humongous 18"</label><br>  
+                                <br>
+                                <select id="crust" name="crust">
+                                        <option value="Thin">Thin</option>
+                                        <option value="Thick">Thick</option>
+                                        <option value="Gluten Free">Gluten Free</option>
+                                </select>
+                                <br><br>
                                 <input type="number" id="quantity" name="quantity" min="1" max="50" value="1">
                                 <select id="location" name="location">
                                     <option value="Delivery">Delivery</option>
@@ -78,16 +96,16 @@
                             <section>
                                 <fieldset>
                                     <legend><b>Size</b></legend>
-                                    <input type="radio" id="individual" name="size" value="Individual">
-                                        <label for="individual">Individual 6"</label><br>
-                                    <input type="radio" id="small" name="size" value="Small">
-                                        <label for="small">Small 10"</label><br>
-                                    <input type="radio" id="medium" name="size" value="Medium">
-                                        <label for="medium">Medium 13"</label><br>
-                                    <input type="radio" id="large" name="size" value="Large">
-                                        <label for="large">Large 15"</label><br>
-                                    <input type="radio" id="humongous" name="size" value="Humongous">
-                                        <label for="humongous">Humongous 18"</label><br>  
+                                    <input type="radio" id="individual2" name="size2" value="Individual">
+                                        <label for="individual2">Individual 6" <small>$12.99</small></label><br>
+                                    <input type="radio" id="small2" name="size2" value="Small">
+                                        <label for="small2">Small 10" <small>$15.99</small></label><br>
+                                    <input type="radio" id="medium2" name="size2" value="Medium">
+                                        <label for="medium2">Medium 13" <small>$16.99</small></label><br>
+                                    <input type="radio" id="large2" name="size2" value="Large">
+                                        <label for="large2">Large 15" <small>$17.99</small></label><br>
+                                    <input type="radio" id="humongous2" name="size2" value="Humongous">
+                                        <label for="humongous2">Humongous 18" <small>$12.99</small></label><br>  
                                 </fieldset>
                             </section>
 
@@ -122,32 +140,32 @@
                                 <fieldset>
                                     <legend><b>Toppings</b></legend>
                                     <p>3 toppings included per pie, max 2 included meats. Additional toppings $1.29 per option.</p>
-                                    <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni">
+                                    <input type="checkbox" id="pepperoni" name="toppings[]" value="Pepperoni">
                                         <label for="pepperoni">Pepperoni</label><br>
-                                    <input type="checkbox" id="sausage" name="toppings" value="Sausage">
+                                    <input type="checkbox" id="sausage" name="toppings[]" value="Sausage">
                                         <label for="sausage">Sausage</label><br>
-                                    <input type="checkbox" id="bacon" name="toppings" value="Bacon">
+                                    <input type="checkbox" id="bacon" name="toppings[]" value="Bacon">
                                         <label for="bacon">Bacon</label><br>
-                                    <input type="checkbox" id="ham" name="toppings" value="Ham">
+                                    <input type="checkbox" id="ham" name="toppings[]" value="Ham">
                                         <label for="ham">Ham</label><br>
 
-                                    <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+                                    <input type="checkbox" id="mushrooms" name="toppings[]" value="Mushrooms">
                                         <label for="mushrooms">Mushrooms</label><br>
-                                    <input type="checkbox" id="onions" name="toppings" value="Onions">
+                                    <input type="checkbox" id="onions" name="toppings[]" value="Onions">
                                         <label for="onions">Onions</label><br>
-                                    <input type="checkbox" id="black_olives" name="toppings" value="Black Olives">
+                                    <input type="checkbox" id="black_olives" name="toppings[]" value="Black Olives">
                                         <label for="black_olives">Black Olives</label><br>
-                                    <input type="checkbox" id="green_peppers" name="toppings" value="Green Peppers">
+                                    <input type="checkbox" id="green_peppers" name="toppings[]" value="Green Peppers">
                                         <label for="green_peppers">Green Peppers</label><br>
-                                    <input type="checkbox" id="jalapenos" name="toppings" value="Jalapenos">
+                                    <input type="checkbox" id="jalapenos" name="toppings[]" value="Jalapenos">
                                         <label for="jalapenos">Jalapenos</label><br>
-                                    <input type="checkbox" id="tomatoes" name="toppings" value="Tomato Slices">
+                                    <input type="checkbox" id="tomatoes" name="toppings[]" value="Tomato Slices">
                                         <label for="tomatoes">Tomato Slices</label><br>
-                                    <input type="checkbox" id="spinach" name="toppings" value="Spinach">
+                                    <input type="checkbox" id="spinach" name="toppings[]" value="Spinach">
                                         <label for="spinach">Spinach</label><br>
-                                    <input type="checkbox" id="pineapple" name="toppings" value="Pineapple">
+                                    <input type="checkbox" id="pineapple" name="toppings[]" value="Pineapple">
                                         <label for="pineapple">Pineapple</label><br>
-                                    <input type="checkbox" id="feta_cheese" name="toppings" value="Feta Cheese">
+                                    <input type="checkbox" id="feta_cheese" name="toppings[]" value="Feta Cheese">
                                             <label for="feta_cheese">Feta Cheese</label><br>
                                 </fieldset>
                             </section>
@@ -163,8 +181,8 @@
                                         <option value="No Cheese">No Cheese</option>
                                     </select>
                                     <!-- extra cheese toggle -->
-                                    <input type="checkbox" id="extra_cheese" name="extra_cheese" value="Individual">
-                                        <label for="extra_cheese">Extra Cheese ($2.49)</label><br>
+                                    <input type="checkbox" id="extra_cheese" name="extra_cheese[]" value="Extra Cheese">
+                                        <label for="extra_cheese">Extra Cheese <small>$2.49</small></label><br>
                                 </fieldset>
                             </section>
 
@@ -172,12 +190,12 @@
                             <section>
                                 <fieldset>
                                     <legend><b>Extras</b></legend>
-                                    <input type="checkbox" id="red_pepper_flakes" name="extras" value="Red Pepper Flakes">
+                                    <input type="checkbox" id="red_pepper_flakes" name="extras[]" value="Red Pepper Flakes">
                                         <label for="red_pepper_flakes">Red Pepper Flakes</label><br>
-                                    <input type="checkbox" id="parmesan_cheese" name="extras" value="Parmesan Cheese">
+                                    <input type="checkbox" id="parmesan_cheese" name="extras[]" value="Parmesan Cheese">
                                         <label for="parmesan_cheese">Parmesan Cheese</label><br>
-                                    <input type="checkbox" id="stuffed_crust" name="extras" value="Stuffed Crust">
-                                        <label for="stuffed_crust">Stuffed Crust ($2.49)</label><br>
+                                    <input type="checkbox" id="stuffed_crust" name="extras[]" value="Stuffed Crust">
+                                        <label for="stuffed_crust">Stuffed Crust <small>$2.49</small></label><br>
                                 </fieldset>
 
                             <!-- sumbitting section -->
@@ -202,7 +220,7 @@
                                     <label for="comments">Additional Comments:</label>
                                     <textarea id="comments" name="user_comments" rows="4" cols="30"></textarea>
                                     <br><br>
-                                    <button type="submit">Add to Order</button>
+                                    <button type="submit">Place Order</button>
                                     <button type="reset">Reset Options</button>
                                 </fieldset>
                             </section>
@@ -212,7 +230,12 @@
         </main>
         
         <footer>
-            <p><small>©Piesano Pies</small></p>
+            <p>
+                <small>
+                    ©Piesano Pies
+                    <a href="https://www.flaticon.com/free-icons/pizza" title="pizza icons">Pizza icon created by Freepik</a>
+                </small>
+            </p>
         </footer>
 
     </body>
