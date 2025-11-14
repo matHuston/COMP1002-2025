@@ -1,12 +1,31 @@
 @charset "utf-8";
 
+body{
+  background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.85) 100%), 
+        url(IMG_1340.jpg);	
+	background-size: 135%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  	font-size: 150%;
+  	text-align: center;
+  	font-weight: normal;
+  	color: whitesmoke;
+  	text-shadow: 2px 2px 4px #000000;
+}
 /* CSS POSITION PROPERTY
 "The position CSS property specifies how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements." (https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 */
 
 /* STEP 1: Style the ASIDE element - change the background-color, and the width properties */
 aside {
-
+	background-color: rgba(0, 70, 100, 0.5);
+	width: 500px;
+	position: sticky;
+	right: 10px;
+	top: 500px;
 }
 
 /* STEP 2: Change the position property of the ASIDE element - static | relative | absolute | sticky - proceed to STEP 2a below */
@@ -47,17 +66,26 @@ aside p strong {
 	font-size: 2em;
 	padding: 0.25em;
 	/* STEP 4b: Position the blue question mark box (ASIDE P STRONG) with absolute, and see how you can place it within the positioned ASIDE parent element, instead of the document window. */
-
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 /* STEP 4c: Change the postion of the containing ASIDE element and watch the dark blue question mark move with it. */
 
 /* STEP 5a: Elements that are positioned have a vertical stacking order, z-index - set the HEADER element to position: absolute, with a background color of 'lightgoldenrodyellow' (seriously) */
 header {
-
+	position: sticky;
+	color: orange;
 }
 /* STEP 5b: position the HEADER at the top right of the document window - since it is earlier in the code source order, it is rendered underneath the later ASIDE element */
 
 /* STEP 5c: Set the z-index of the HEADER to '2' - z-index can be anywhere from 0-999 */
 
 /* STEP 5d: Set the z-index of the ASIDE to '3' - observe the result in the browser - and we're all done! */
+h1{
+  font-family:Impact, sans-serif;
+}
+h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
