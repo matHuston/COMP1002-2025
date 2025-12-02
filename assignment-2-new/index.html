@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <title> Breakfast at Tiffany's | MoreMovies </title>
         <!--set width for devices like mobile-->
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width">
         
         <!--author & desc metadata-->
-        <meta name="author" content="mayHuston" />
-        <meta name="description" content="mayHuston" />
+        <meta name="author" content="mayHuston">
+        <meta name="description" content="mayHuston">
         <!--icon for browser tabs-->
-        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
         <!--attach stylesheet-->
         <link rel="stylesheet" href="css/styles.css">
 
-        <!-- fonts ------------------------------------------------------------------>
+        <!-- fonts -->
          <!-- Inter -->
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald&display=swap" rel="stylesheet">
-        <!-- end fonts -------------------------------------------------------------->
+        <!-- end fonts -->
     </head>
 
     <body>
@@ -27,53 +27,49 @@
         
         <main>
             
-        <!-- left side aligned text ------------------------------------------------>
-            <div id="left">
-                <figure> <!--breakfast at tiffany's figure-->
-                <img src="img/batPosterLogo.png" alt="She said, 'I think I remember that film' " id="poster"/>
-                </figure>
-
-                <section id="aboveLogo" class="inter-inter">
-                    <p>Audrey Hepburn</p>
-                    <p>Plays that darling, darling Holly Golightly to a new high in entertainment delight!</p>
-                </section>
-            
-                <section id="production" class="oswald-oswald">
-                   <p>A Jurow-Shepherd</p>
-                    <p>Production</p>
-                </section>
-
-                <section id="logo" class="goblin-one-goblin">
-                   <p>Breakfast at Tiffany's</p>
-                </section>
-
-                <section id="castCrew" class="oswald-oswald">
-                    <p>Also Starring</p>
-                    <p>Co-starring</p>
-                    <p>George Peppard · Patricia Neal · Buddy Ebsen · Martin Balsam and</p>
-                    <p>And Mickey Rooney</p>
-                    <p>Directed by</p>
-                    <p>Produced by</p>
-                    <p>Screenplay by</p>
-                    <p>Based on the novel by Truman Capote</p>
-                    <p>Music · Henry Mancini</p>
-                    <p>A Paramount Release</p>
-                </section>
-                <p class="goblin-one-goblin">TECHNICOLOR<span id="reg">®</span></p>
+        <!-- left side aligned text -->
+            <div id="left" class="column">
+                <!-- breakfast at tiffany's -->
+                <img src="img/batPoster.jpg" alt="She said, 'I think I remember that film' " class="poster">
             </div>
         <!--end left side -->
-        <!-- right side aligned text ------------------------------------------------>
-            <div>
+        <!-- right side aligned text -->
+            <div class="column">
                 <section id="right">
                     <aside>
+                        <h2 class="inter-inter">Audrey Hepburn</h2>
+                            <p class="inter-inter" id="blurb">Plays that daring, darling <span class="hollyGo">H</span>olly <span class="hollyGo">G</span>olightly to a new high <span class="nudgeDelight">in entertainment delight!</span></p>
 
+                        <section class="oswald-oswald">
+                        <p><small id="production" class="attribution">A</small> Jurow-Shepherd <small class="attribution">Production</small></p>
+                        </section>
+
+                        <section id="logo" class="goblin-one-goblin">
+                        <p>Breakfast <small>at</small> Tiffany's</p>
+                        </section>
+
+                        <section id="castCrew" class="oswald-oswald">
+                            <p class="attribution">Also Starring</p>
+                            <p>George Peppard</p>
+                            <p class="attribution">Co-starring</p>
+                            <p>Patricia Neal · Buddy Ebsen · Martin Balsam</p>
+                            <p><small class="attribution">And</small> Mickey Rooney</p>
+                            <p class="attribution">Directed by</p>
+                            <p>Blake Edwards</p>
+                            <p class="attribution">Produced by</p>
+                            <p>Martin Jurow <small class="attribution">And</small> Richard Shepherd</p>
+                            <p class="attribution">Screenplay by</p>
+                            <p>George Axelrod</p>
+                            <p class="attribution">Based on the novel by Truman Capote</p>
+                            <p class="attribution">Music · Henry Mancini</p>
+                            <p class="attribution">A Paramount Release</p>
+                        </section>
+                        <p class="goblin-one-goblin">TECHNICOLOR<span id="reg">®</span></p>
                     </aside>
                 </section>
             </div>
         <!--end right side-->
         </main>
     </body>
-    <footer>
-        <p><small>page © 2024 mayHuston</small></p>
-    </footer>
+    
 </html>

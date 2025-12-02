@@ -10,8 +10,8 @@ html {
 
 body{
   background-image: 
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.25) 100%), 
-        url(../img/paper1.jpg);	
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.15) 100%), 
+        url(../img/paper3.jpg);	
 	background-size: 100%;
 	background-position: center;
 	/* background-repeat: no-repeat; */
@@ -21,65 +21,117 @@ body{
   	text-align: center;
   	font-weight: normal;
   	color:rgb(34, 32, 32);
-  	text-shadow: 2px 2px 4px #000000;
+	line-height: 0.95;
 }
 
-div#left{
-	text-align: left;
+
+/*two collumn layout*/
+ .column{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
 	margin-left: 5%;
 	margin-bottom: 2%;
 	margin-top: 2%;
-	float: left;
-	width: 40%;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+/*layout will move the specialty collumn underneath build your own collumn if screen is small*/
+@media screen and (max-width:900px){
+    .column{
+        width: 100%; 
+    }
+}
+/*end two collumn layout*/
 
 /* poster image */
-div#left figure{
+.poster{
+	height: 1000px;
+	width: 642px;
 	text-align: left;
-	margin-left: 5%;
-	margin-bottom: 2%;
-	margin-top: 2%;
 	float: left;
-	height: 842px; 
-	width: 540px;
+}
+#aboveLogo p{
+	
 }
 
-section#aboveLogo p{
-	font-size: 120%;
+.centerLow{
+
 }
+.hollyGo{
+	font-size: 115%;
+}
+.nudgeDelight{
+	
+}
+
+
+
 
 section#production p{
-	font-size: 120%;
+	
 }
-
 section#logo p{
-	font-size: 120%;
+	transition: width 2s;
+	width: 400px;
+	letter-spacing: 1px;
+	word-spacing: 1.5px;
 }
-
+section#logo p:hover{
+	width: 700px;
+}
 section#castCrew p{
-	font-size: 120%;
+	
 }
-
-
-
 span#reg {
   font-size: 0.5em;
   vertical-align: super;
 }
-
-/* -- fonts ------------------------------------------------------------------ */
+/* - fonts -*/
 /* Goblin One */
 .goblin-one-goblin {
   font-family: "Goblin One", serif;
   font-weight: 400;
+  font-size: 40px;
   font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  width: 88%;
+  text-align: center;
+  color: rgb(131, 39, 66);
 }
 /* Inter */
-.inter-inter {
+p.inter-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 450;
   font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  width: 88%;
+  text-align: center;
+  color: rgb(32, 59, 82);
+}
+
+h2.inter-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  width: 88%;
+  text-align: center;
+  color: rgb(18, 48, 34);
 }
 
 .oswald-oswald {
@@ -87,5 +139,16 @@ span#reg {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+  width: 88%;
+  text-align: center;
 }
-/* -- end fonts --------------------------------------------------------------- */
+.attribution {
+	font-size: 0.8em;
+}
+
+.footer{
+position: absolute;
+}
