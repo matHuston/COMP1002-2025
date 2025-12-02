@@ -8,6 +8,15 @@
 
 /*simple bg img*/
 
+/* border box sizing for more predictable layouts */
+html {
+  box-sizing: border-box;
+}
+/*WILDCARD affects EVERYTHING on page*/
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 
 body { /* INHERITANCE is important, it passes down styles to child elements. use body to set global styles and have them inherited by all elements unless otherwise specified -- an INLINE or INTERNAL CSS will override this inheritance */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif

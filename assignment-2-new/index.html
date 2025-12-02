@@ -13,36 +13,67 @@
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
         <!--attach stylesheet-->
         <link rel="stylesheet" href="css/styles.css">
+
+        <!-- fonts ------------------------------------------------------------------>
+         <!-- Inter -->
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald&display=swap" rel="stylesheet">
+        <!-- end fonts -------------------------------------------------------------->
     </head>
 
     <body>
-        <header>BREAKFAST AT TIFFANY'S</header>
-        <figure> <!--breakfast at tiffany's figure-->
-                <img src="img/BATposter.jpg" alt="She said, 'I think I remember that film' " height="842" width="540"/>
-        </figure>
+        <header>MOREMOVIES</header>
         
         <main>
-            <p>Audrey Hepburn</p>
-            <p>Plays that darling, darling Holly Golightly to a new high in entertainment delight!
-            <p>Breakfast at Tiffany's</p>
-            <p>A Jurow-Shepherd</p>
-            <p>Production</p>
-            <p>Also Starring</p>
-            <p>George Peppard · Patricia Neal · Buddy Ebsen · Martin Balsam and</p>
-            <p>And Mickey Rooney</p>
-            <p>Directed by</p>
-            <p>Produced by</p>
-            <p>Screenplay by</p>
-            <p>Based on the novel by Truman Capote</p>
-            <p>Music · Henry Mancini</p>
-            <p>A Paramount Release</p>
-            <!-- do superscript in CSS with vertical-align: super, (plus an accompanying font-size reduction). -->
-            <p>TECHNICOLOR®</p>
             
+        <!-- left side aligned text ------------------------------------------------>
+            <div id="left">
+                <figure> <!--breakfast at tiffany's figure-->
+                <img src="img/batPosterLogo.png" alt="She said, 'I think I remember that film' " id="poster"/>
+                </figure>
+
+                <section id="aboveLogo" class="inter-inter">
+                    <p>Audrey Hepburn</p>
+                    <p>Plays that darling, darling Holly Golightly to a new high in entertainment delight!</p>
+                </section>
+            
+                <section id="production" class="oswald-oswald">
+                   <p>A Jurow-Shepherd</p>
+                    <p>Production</p>
+                </section>
+
+                <section id="logo" class="goblin-one-goblin">
+                   <p>Breakfast at Tiffany's</p>
+                </section>
+
+                <section id="castCrew" class="oswald-oswald">
+                    <p>Also Starring</p>
+                    <p>Co-starring</p>
+                    <p>George Peppard · Patricia Neal · Buddy Ebsen · Martin Balsam and</p>
+                    <p>And Mickey Rooney</p>
+                    <p>Directed by</p>
+                    <p>Produced by</p>
+                    <p>Screenplay by</p>
+                    <p>Based on the novel by Truman Capote</p>
+                    <p>Music · Henry Mancini</p>
+                    <p>A Paramount Release</p>
+                </section>
+                <p class="goblin-one-goblin">TECHNICOLOR<span id="reg">®</span></p>
+            </div>
+        <!--end left side -->
+        <!-- right side aligned text ------------------------------------------------>
+            <div>
+                <section id="right">
+                    <aside>
+
+                    </aside>
+                </section>
+            </div>
+        <!--end right side-->
         </main>
-
     </body>
-
     <footer>
         <p><small>page © 2024 mayHuston</small></p>
     </footer>
+</html>
