@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title> HOME | SONY WALKMAN</title>
+        <title>THANK YOU | SONY WALKMAN</title>
         <meta name="author" content="Huston">
-        <meta name="description" content="Homepage">
+        <meta name="description" content="Confirmation of form submission">
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="css/styles.css">
 
