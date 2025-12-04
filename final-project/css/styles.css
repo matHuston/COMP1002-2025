@@ -29,13 +29,28 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+.sulphur-point-light {
+  font-family: "Sulphur Point Light", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.sulphur-point-regular {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sulphur-point-bold {
+  font-family: "Sulphur Point Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
+/* BODY BACKGROUND --------------------------------------------------------------------------------------------*/
 body {
     background-color: #1a1f1d;
     background-image: 
         linear-gradient(to bottom, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.15) 100%), 
-        url(../img/paper3.jpg);	
-        
+        url(../images/herohome1.png);
     background-attachment: fixed;
 	background-position: center;
     background-size: 100%;
@@ -48,6 +63,7 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
 }
+/* stripes nav backdrop */
 .multi-colored-stripes{
     height: 100px;
     background-image: linear-gradient(
@@ -62,14 +78,12 @@ nav {
             #ed2d44 60%
         );
     background-size: 90% 110px;
+    border-radius: 22px;
 }
 
 nav a {
     display: inline-block;
     color: whitesmoke;
-}
-nav a .crumb:not(:last-child) a::after {
-    content: " | ";
 }
 .crumbs ol {
     list-style-type: none;
@@ -78,11 +92,14 @@ nav a .crumb:not(:last-child) a::after {
 .crumb {
     display: inline-block;
 }
-.crumb a::after{
+.crumb a::before{
     display: inline-block;
-    color: black;
-    content: "";
+    color: whitesmoke;
+    content: ">";
     padding: 0 3px;
+}
+nav .crumb:first-child a::before{
+    content: "";
 }
 .crumb a:link {
     text-decoration: none;
@@ -90,10 +107,18 @@ nav a .crumb:not(:last-child) a::after {
 .crumb a:visited {
     text-decoration: none;
 }
-.crumb a:hover {
+.crumb a:hover, .crumb a:hover::before {
     color: #f2af1a;
     text-decoration: none;
+    animation: blinker 1s linear infinite;
 }
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+    
 .crumb a:active {
     text-decoration: none;
 }   
@@ -129,22 +154,45 @@ span.stretch, main h1 span.stretch {
 
 /* main content area ---------------------------------------------------------------------------------------------*/
 main {
-    font-family: Arya;
+    font-family: Sulphur Point;
     font-size: 100%;
     text-align: center;
     color: whitesmoke;
+    word-spacing: -4px;
     margin: 20px;
 }
 main h2 {
     font-family: Cal Sans;
     font-size: 120%;
     text-align: center;
+    word-spacing: 2px;
     margin-bottom: 10px;
 }
+main a {
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+}
+main a:hover {
+    color: #f2af1a;
+    text-decoration: none;
+    animation: blinker 2s linear infinite;
+}
+
 .inline-block {
     display: inline-block;
     text-align: left;
     margin: 10px;
+}
+/* hero section */
+.home-hero {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* white walkman logo */
+.resizeLogo {
+  width: 400px;
+  height: auto;
 }
 
 /* scanline effect from https://aleclownes.com/2017/02/01/crt-display.html----------------------------------------*/
@@ -309,18 +357,12 @@ main h2 {
   animation: textShadow 1.6s infinite;
 }
 
-body {
-    position: relative;
-    background: #1b1b1b;
-}
-
 /* footer --------------------------------------------------------------------------------------------------------*/
 footer {
-    font-family: Arya;
+    font-family: Sulphur Point Light;
     font-size: 90%;
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
-    /* background-color: rgba(0, 0, 0, 0.7); */
     color: whitesmoke;
 }
