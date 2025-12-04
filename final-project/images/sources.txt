@@ -1,8 +1,17 @@
 IMAGES----------------------------------------------------------------------------------
+Websites and Blogs
+This can be websites of varying topics, blog pages, e-books, newsletters, etc.
+When publishing on a site or personal blogs, attribute directly below the image or in a caption next to it.
+Alternatively, you can include the attribution at the end of the post or in a separate "Credits" or "Sources" section.
+
 logo1.png
 logo2.jpeg
 lineup.jpeg
    https://fontsinuse.com/uses/54298/sony-walkman-logo
+
+lineup2.png
+cassetteSony.png
+    https://wallpapers.com/
 
 inHand.jpg
     https://garajedelrock.com/noticias/walkman-sony-lanza-edicion-especial-por-sus-40-aniversario/
@@ -19,6 +28,10 @@ logo2000s.png
 silhouette.png
 walkman.png
     https://www.pngall.com/walkman-png/
+
+holdingtape.jpg
+walkmanAesthetic.jpg
+    https://wallpaperaccess.com/
 
 
 
