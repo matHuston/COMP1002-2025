@@ -28,6 +28,17 @@ html {
   float: right;
   width: 50%;
   padding: 20px;
+  margin-right: 150px;
+  box-sizing: border-box;
+  /* border: 2px dotted rgb(177, 83, 30); */
+  text-align: left;
+}
+.corpoColumnNames{
+  position: relative;
+  float: right;
+  width: 50%;
+  padding: 10px;
+  margin-right: 150px;
   box-sizing: border-box;
   /* border: 2px dotted rgb(177, 83, 30); */
   text-align: left;
@@ -35,7 +46,7 @@ html {
 .corpoColumnLabel{
   position: relative;
   float: right;
-  width: 50%;
+  width: 30%;
   padding: 20px;
   box-sizing: border-box;
   /* border: 2px dotted rgb(218, 26, 243); */
@@ -302,9 +313,9 @@ main a:hover {
 }
 
 div h2 {
-    margin: 10px;
+    margin: 0px;
     margin-top: 7px;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 /* CRT effect from https://aleclownes.com/2017/02/01/crt-display.html----------------------------------------*/
