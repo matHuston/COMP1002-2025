@@ -59,7 +59,6 @@
   clear: both;
   display: table;
 }
-
 .inline-block {
     display: inline-block;
     text-align: start;
@@ -109,13 +108,11 @@ main a:hover {
     text-decoration: none;
     animation: blinker 2s linear infinite;
 }
-
 div h2 {
     margin: 0px;
     margin-top: 7px;
     font-size: 120%;
 }
-
 .container{
   margin 0px auto;
   padding: 2.5%;

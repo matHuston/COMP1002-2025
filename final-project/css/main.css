@@ -95,12 +95,12 @@ nav {
     background-size: 90% 110px;
     border-radius: 22px;
 }
+
 /* color must be set here + other places*/
 nav a {
     display: inline-block;
     color: whitesmoke;
 }
-
 .crumbs ol {
     list-style-type: none;
     padding-left: 0;
@@ -118,6 +118,7 @@ nav a {
     font-size: 24px;
     padding: 0 3px;
 }
+
 /* no > before SONY logo */
 nav .crumb:first-child a::before{
     content: "";
@@ -168,6 +169,7 @@ nav h1:hover {
     color: #f2af1a;
     text-decoration: none;
 }
+
 /* stretch type to match real logo proportions */
 span.stretch, main h1 span.stretch {
     display:inline-block;
@@ -207,30 +209,25 @@ main {
     word-spacing: -4px;
     margin: 10px;
 }
-
 main h2 {
     font-family: Cal Sans;
     font-size: 140%;
     word-spacing: 2px;
     margin: 10px;
 }
-
 main a {
     display: inline-block;
     color: whitesmoke;
     text-decoration: none;
 }
-
 main a:hover {
     color: #f2af1a;
     text-decoration: none;
     animation: blinker 2s linear infinite;
 }
-
-div h2 {
-    margin: 0px;
-    margin-top: 7px;
-    font-size: 120%;
+.container{
+  margin 0px auto;
+  padding: 2.5%;
 }
 
 /* CRT effect from https://aleclownes.com/2017/02/01/crt-display.html----------------------------------------*/
@@ -395,11 +392,6 @@ div h2 {
   animation: textShadow 1.6s infinite;
 }
 
-.container{
-  margin 0px auto;
-  padding: 2.5%;
-}
-
 /* footer --------------------------------------------------------------------------------------------------------*/
 footer {
     font-family: Clarendon-Light;
@@ -441,3 +433,4 @@ footer {
         flex-direction: column;
     }
 } 
+/* end media screen */
