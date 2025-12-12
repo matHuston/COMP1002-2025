@@ -7,7 +7,7 @@
         <meta name="author" content="Huston">
         <meta name="description" content="Confirmation of form submission">
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/main.css">
 
     </head>
 
