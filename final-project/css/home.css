@@ -1,5 +1,12 @@
 @charset "utf-8";
-
+.column{
+  position: relative;
+  float: ;
+  width: 50%;
+  position: relative;
+  box-sizing: border-box;
+  /* border: 2px dotted rgb(96 139 168); */
+}
 /* main content area ---------------------------------------------------------------------------------------------*/
 main {
     font-family: Sulphur Point;
