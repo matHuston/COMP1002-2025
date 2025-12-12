@@ -396,7 +396,7 @@ div h2 {
 }
 
 .container{
-  margin 0 auto;
+  margin 0px auto;
   padding: 2.5%;
 }
 
@@ -409,3 +409,35 @@ footer {
     padding: 10px 0;
     color: whitesmoke;
 }
+
+/* medium screen size layout */
+@media screen and (max-width:1400px){
+    .column{
+        width: 100%; 
+    }
+    nav .bigNav{
+        font-size: 24px;
+    }
+    nav .crumb a::before{
+        font-size: 24px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+/* small screen size layout */
+@media screen and (max-width:850px){
+    nav .bigNav{
+        font-size: 15px;
+    }
+    nav .crumb a::before{
+        font-size: 15px;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+} 

@@ -25,6 +25,15 @@ main a:hover {
     text-decoration: none;
     animation: blinker 2s linear infinite;
 }
+main, h2, h3, #shopBtn :not(span, h1){
+  position: relative;
+  top: 100px;
+}
+
+#shopBtn{
+  position: relative;
+  top: 100px;
+}
 
 /* hero section */
 .home-hero {
@@ -35,7 +44,9 @@ main a:hover {
 
 /* white walkman logo */
 .resizeLogo {
-  width: 800px;
+  position: relative;
+  top: 100px;
+  width: 1200px;
   height: auto;
   vertical-align: right;
 }
@@ -44,7 +55,6 @@ main a:hover {
   width: 400px;
   height: auto;
 }
-
 
 #walkmanPos{
   display: flex;
@@ -64,31 +74,15 @@ div h2 {
   padding: 2.5%;
 }
 
-/*layout will adjust if screen is small*/
-@media screen and (max-width:900px){
-    .column{
-        width: 100%; 
-    }
-    nav .bigNav{
-        font-size: 16px;
-    }
-    nav .crumb a::before{
-        font-size: 16px;
-    }
-    nav h1{
-        font-size:1.5em;
-    }
+/* medium screen size layout */
+@media screen and (max-width:1400px){
     .resizeLogo {
-        width: 500px;
+        width: 800px;
         height: auto;
         vertical-align: right;
         object-position: 0px 0px 50px 50px; 
     }
-    
-    main{
-        display: flex;
-        flex-direction: column;
-    }
+
     .home-hero {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -97,4 +91,24 @@ div h2 {
     text-align: center;
   }
 } 
+/* small screen size layout */
+@media screen and (max-width:850px){
+    .resizeLogo {
+        width: 500px;
+        height: auto;
+        vertical-align: right;
+        object-position: 0px 0px 50px 50px; 
+    }
+
+    .home-hero {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    /* border: 2px dotted rgb(65, 177, 84); */
+    text-align: center;
+  }
+} 
+@media screen and (max-width:850px){
+
+}
 /* end media screen */
