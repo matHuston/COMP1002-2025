@@ -222,6 +222,21 @@ span.stretch, main h1 span.stretch {
     margin: 0 auto;
     font-family: Sarpanch;
     font-weight: 700;
+} 
+.techyLabel {
+    margin: 0 auto;
+    font-family: Sarpanch;
+    font-weight: 400;
+} 
+label {
+    margin: 0 auto;
+    font-family: Sarpanch;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: right;
+    display: inline-block;
+    width:100px;
+    text-overflow: ellipsis;
 }
 
 /* horizontal rule for slogan*/
