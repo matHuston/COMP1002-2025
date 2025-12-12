@@ -302,6 +302,14 @@ main a:hover {
   height: auto;
 }
 
+
+#walkmanPos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
 div h2 {
     margin: 0px;
     margin-top: 7px;
