@@ -306,7 +306,7 @@ main a:hover {
     margin-bottom: 30px;
 }
 /* white walkman logo */
-.resizeLogo {
+#resizeLogo {
   width: 400px;
   height: auto;
   vertical-align: middle;
