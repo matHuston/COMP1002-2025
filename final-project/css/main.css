@@ -242,7 +242,12 @@ label {
     animation: blinker 1.5s linear infinite;
 }
 
-/* horizontal rule for slogan*/
+/* stars */
+.checked {
+  color: orange;
+}
+
+/* horizontal rule*/
 hr {
     display: block;
     height: 1px;
