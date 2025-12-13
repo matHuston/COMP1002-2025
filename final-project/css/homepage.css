@@ -127,9 +127,9 @@ main li {
     main{
         display: flex;
         flex-direction: column;
-    }
-    
+    }  
 }
+
 /* small screen size layout */
 @media screen and (max-width:850px){
     .resizeLogo {

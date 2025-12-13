@@ -7,6 +7,11 @@
   height: auto;
   vertical-align: right;
 }
+.resizeWalkman {
+    width: 600px;
+    height: auto;
+    /* border: 2px dotted rgb(65, 177, 84); */
+  }
 
 /* column layout --------------------------------------------------------------------------------------------*/
 .column{
@@ -88,8 +93,8 @@ main li {
     vertical-align: right;
     object-position: 0px 0px 50px 50px; 
   }
-
 }
+
 /* small screen size layout */
 @media screen and (max-width:850px){
     .resizeLogo {
