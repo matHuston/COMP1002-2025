@@ -238,6 +238,9 @@ label {
     width:100px;
     text-overflow: ellipsis;
 }
+.button:hover{
+    animation: blinker 1.5s linear infinite;
+}
 
 /* horizontal rule for slogan*/
 hr {
