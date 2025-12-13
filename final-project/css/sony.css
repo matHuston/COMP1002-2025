@@ -118,6 +118,7 @@ div h2 {
   padding: 2.5%;
 }
 
+/* screen sizes --------------------------------------------------------------------------------------------------*/
 /* medium screen size layout */
 @media screen and (max-width:1550px){
     nav .bigNav{

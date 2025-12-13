@@ -40,7 +40,6 @@
     margin: 10px;
 } 
 
-
 /* horizontal rule for slogan */
 hr {
     display: block;
@@ -72,6 +71,7 @@ main li {
     text-align: left;
 }
 
+/* screen sizes --------------------------------------------------------------------------------------------------*/
 /* medium screen size layout */
 @media screen and (max-width:1550px){
     nav .bigNav{
