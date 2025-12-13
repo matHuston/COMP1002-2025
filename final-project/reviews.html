@@ -13,6 +13,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Cal+Sans&family=Gidugu&family=Sarpanch:wght@400;500;600;700;800;900&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+            <!-- fade in scripting learned from https://www.w3schools.com/jquery/jquery_fade.asp -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+                <script>
+                    $(document).ready(function(){
+                        $("button").click(function(){
+                            $("#rev1").fadeIn("slow");
+                            $("#rev2").fadeIn("slow");
+                            $("#rev3").fadeIn("slow");
+                        });
+                    });
+                </script>
         <!-- star-rating sheet from https://www.w3schools.com/howto/howto_css_star_rating.asp -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -42,14 +53,13 @@
                         <hr>
                         <h2 class="inline-block">Your Life. Now With a Soundtrack.</h2>
                         <br><br>
-                        <!-- feature breakdown -->
-                        <h3>Hear from our satisfied customers</h3>
-                        <hr>
-                            <!-- this blockquote actually impacts the formatting so it needs to stay. specifications from https://walkman-archive.com/gadgets/walkman_sony_01_tps-l2_eng_v3.htm-->
+                        <!-- reviews -->
+                        <h3 class="buttonReviews"><button>Hear from our satisfied customers</button></h3>
+                            <!-- this blockquote actually impacts the formatting so it needs to stay. -->
                             <blockquote cite="https://gemini.google.com/" class="thinColumn">
                                 <p>
                                     <ul>
-                                        <li style="font-size: 20px;"><span class="fa fa-star checked"></span>
+                                        <li style="font-size: 20px; display:none;" id="rev1"><span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
@@ -58,7 +68,7 @@
                                             
                                         </li>
                                         <br>
-                                        <li style="font-size: 20px;"> 
+                                        <li style="font-size: 20px; display:none;" id="rev2"> 
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
@@ -66,7 +76,7 @@
                                             <span class="fa fa-star"></span><br> 
                                             "Walking down the street with my own private soundtrack is a completely new vibe that I didn't know I needed until now. We love the second headphone jack so my girlfriend and I can listen to the same tape on the train without disturbing anyone."</li>
                                         <br>
-                                        <li style="font-size: 20px;"> 
+                                        <li style="font-size: 20px; display:none;" id="rev3"> 
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
@@ -96,6 +106,7 @@
                                         </p>
                                     </form> 
                                 </p>
+                            </blockquote>
                         <!-- end specs -->
                     <!-- end left column -->
                     </section>

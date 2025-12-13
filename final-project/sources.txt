@@ -1,9 +1,7 @@
-IMAGES----------------------------------------------------------------------------------
-Websites and Blogs
-This can be websites of varying topics, blog pages, e-books, newsletters, etc.
 When publishing on a site or personal blogs, attribute directly below the image or in a caption next to it.
 Alternatively, you can include the attribution at the end of the post or in a separate "Credits" or "Sources" section.
 
+IMAGES-----------------------------------------------------------------------------------
 logo1.png
 logo2.jpeg
 lineup.jpeg
@@ -36,75 +34,23 @@ walkmanAesthetic.jpg
 walkmanBuy.jpg 
     https://walkman-archive.com/gadgets/walkman_sony_01_tps-l2_eng_v3.htm
 
+OTHER------------------------------------------------------------------------------------
+>in order accessed
+    https://aleclownes.com/2017/02/01/crt-display.html
+    https://www.sony.co.jp/en/corporate/message/
+    https://walkman-archive.com/gadgets/walkman_sony_01_tps-l2_eng_v3.htm
+    https://www.w3schools.com/jquery/jquery_fade.asp
+    https://www.w3schools.com/howto/howto_css_star_rating.asp
 
-    FONTS--------------------------------------------------------------------------------
-
-    > 1960s kinda, thick ----------------------------------------------------------------
-        Plaster 
-            https://fonts.google.com/specimen/Plaster?categoryFilters=Feeling:%2FExpressive%2FVintage
-        Fascinate
-            https://fonts.google.com/specimen/Fascinate?categoryFilters=Feeling:%2FExpressive%2FVintage
-        Tilt Warp
-            https://fonts.google.com/specimen/Tilt+Warp?categoryFilters=Feeling:%2FExpressive%2FVintage
-        Belanosima
-            https://fonts.google.com/specimen/Belanosima?categoryFilters=Feeling:%2FExpressive%2FVintage
-        *Staatliches
-            https://fonts.google.com/specimen/Staatliches?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-
-    > Hollow ----------------------------------------------------------------------------
-        Bungee Outline
-            https://fonts.google.com/specimen/Bungee+Outline?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-
-    > VHS/Cassette Deck -----------------------------------------------------------------
-        *Sarpanch
-            https://fonts.google.com/specimen/Sarpanch?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Gidugu
-            https://fonts.google.com/specimen/Gidugu?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Rethink Sans 
-            https://fonts.google.com/specimen/Rethink+Sans?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Arya
-            https://fonts.google.com/specimen/Arya?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Cute Font 
-            https://fonts.google.com/specimen/Cute+Font?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        *Cal Sans   
-            https://fonts.google.com/specimen/Cal+Sans?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        
-        
-
-    > Techy, sleek, thin ----------------------------------------------------------------
-        *Urbanist
-            https://fonts.google.com/specimen/Urbanist?categoryFilters=Feeling:%2FExpressive%2FVintage
-        Be Vietnam Pro 
-            https://fonts.google.com/specimen/Be+Vietnam+Pro?categoryFilters=Feeling:%2FExpressive%2FVintage
-        *Sulphur Point
-            https://fonts.google.com/specimen/Sulphur+Point?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        *Cousine
-            https://fonts.google.com/specimen/Cousine?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Schibsted Grotesk
-            https://fonts.google.com/specimen/Schibsted+Grotesk?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        
-
-    > Button-label styles ---------------------------------------------------------------
-        Didact Gothic
-            https://fonts.google.com/specimen/Didact+Gothic?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Varela
-            https://fonts.google.com/specimen/Varela?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Dongle
-            https://fonts.google.com/specimen/Dongle?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-
-
-    > Typewrite-esc ---------------------------------------------------------------------
-        PT Mono
-            https://fonts.google.com/specimen/PT+Mono?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-
-
-    > SONY logo -------------------------------------------------------------------------
-        Stoke
-            https://fonts.google.com/specimen/Stoke?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Fenix
-            https://fonts.google.com/specimen/Fenix?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Red Rose
-            https://fonts.google.com/specimen/Red+Rose?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        Michroma
-            https://fonts.google.com/specimen/Michroma?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
-        
+FONTS------------------------------------------------------------------------------------
+    > Sarpanch
+        https://fonts.google.com/specimen/Sarpanch?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
+    > Gidugu
+        https://fonts.google.com/specimen/Gidugu?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
+    > Arya
+        https://fonts.google.com/specimen/Arya?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
+    > Cal Sans   
+        https://fonts.google.com/specimen/Cal+Sans?preview.text=WALKMAN%20STEREO%20SONY%20STOP%20PLAY%20REWIND%20FORWARD&categoryFilters=Feeling:%2FExpressive%2FVintage
+    > SONY Logo
+        > Clarendon-Light Regular
+        > Clarendon-Medium Regular

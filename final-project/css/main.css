@@ -288,7 +288,7 @@ main a:hover {
   padding: 2.5%;
 }
 
-/* CRT effect from https://aleclownes.com/2017/02/01/crt-display.html----------------------------------------*/
+/* CRT effect from https://aleclownes.com/2017/02/01/crt-display.html ----------------------------------------*/
 @keyframes flicker {
   0% {
     opacity: 0.27861;
